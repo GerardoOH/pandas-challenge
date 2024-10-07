@@ -1,0 +1,73 @@
+Analysis of School Performance and Spending
+
+1. Overview:
+
+We started by analyzing a dataset containing student performance metrics across various schools. The data included attributes such as student names, gender, grade, school names, scores in reading and math, and other school-level information like budget and school type. This comprehensive dataset enabled us to delve into various aspects of student and school performance.
+
+2. Total Schools, Students, and Budget:
+
+We calculated the total number of unique schools, total number of students, and total budget across all schools:
+
+	•	Total Schools: 15
+	•	Total Students: 39,170
+	•	Total Budget: $82,932,329,558.00
+
+These figures provide a foundational understanding of the scale of the educational system represented in the data.
+
+3. Average Performance Metrics:
+
+We computed the average math and reading scores across all students:
+
+	•	Average Math Score: 78.99
+	•	Average Reading Score: 81.88
+
+These results suggest that, on average, students performed slightly better in reading compared to math.
+
+4. Passing Rates in Math and Reading:
+
+To gauge student performance more effectively, we analyzed the percentage of students who passed math and reading (scoring 70 or higher):
+
+	•	% Passing Math: 74.98%
+	•	% Passing Reading: 85.81%
+
+The higher passing rate in reading aligns with the slightly better average reading scores. This suggests that students, in general, find reading easier or are better supported in this subject compared to math.
+
+5. Overall Passing Rate:
+
+We also calculated the percentage of students who passed both math and reading:
+
+	•	% Overall Passing: 65.17%
+
+This metric is a strong indicator of comprehensive academic performance, showing that around two-thirds of the students are meeting or exceeding expectations in both subjects.
+
+6. Spending Analysis:
+
+Using the per-student budget data, we categorized the schools into spending ranges. This categorization helps us understand if and how the financial investment impacts performance. The spending ranges were defined as:
+
+	•	<$585
+	•	$585-630
+	•	$630-645
+	•	$645-680
+
+7. Performance by School Size:
+
+To understand the impact of school size on performance, we categorized schools based on the total number of students:
+
+	•	Small (<1000)
+	•	Medium (1000-2000)
+	•	Large (2000-5000)
+
+This analysis can reveal trends such as whether smaller schools perform better due to smaller class sizes or if larger schools benefit from more resources and specialized programs.
+
+8. Grade-Level Analysis:
+
+We also broke down performance by grade levels (9th, 10th, 11th, and 12th) to identify trends across different stages of high school. For each grade, we calculated the average math and reading scores, providing a deeper insight into student progression and learning outcomes as they move through high school.
+
+Summary:
+
+Our analysis reveals several key insights:
+
+	1.	Reading performance consistently outpaces math performance in terms of both average scores and passing rates.
+	2.	Overall academic performance sees around two-thirds of students meeting expectations in both subjects.
+	3.	Spending per student and school size could potentially influence performance, although further analysis would be required to establish concrete trends.
+	4.	Grade-level breakdowns can help identify specific areas of improvement or excellence within each school, providing a more targeted approach for enhancing educational outcomes.
